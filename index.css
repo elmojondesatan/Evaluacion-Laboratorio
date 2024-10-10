@@ -1,0 +1,20 @@
+#root{
+    display: grid;
+    grid-template-columns: 15rem;
+    grid-template-rows: 10rem 10rem 10rem;
+}
+
+.componentes1{
+    grid-row: 1/1;
+    background-color: blue;
+}
+
+.componentes2{
+    grid-row: 2/2;
+    background-color: black;
+}
+
+.componentes3{
+    grid-row: 3/3;
+    background-color: brown;
+}
